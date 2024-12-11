@@ -37,6 +37,6 @@ The app is deployed on the cluster: `sshuser@hbase-mpcs53014-2024-ssh.azurehdins
 
 ## Running the App
 - Download the code and open the project in your IDE of choice.
-- Set up the configurations.
+- Set up the deployment configurations.
 - Run the application by selecting ‘Run’ on the toolbar.
 
