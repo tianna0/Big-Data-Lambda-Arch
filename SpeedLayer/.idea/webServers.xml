@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cc052884-6bfb-4fd6-891d-a26f6ffacb01" name="MPCS">
+        <fileTransfer rootFolder="/home/sshuser" accessType="SFTP" host="hbase-mpcs53014-2024-ssh.azurehdinsight.net" port="22" sshConfigId="36aea7a3-df5c-4987-b7e7-c86b603fd76d" sshConfig="sshuser@hbase-mpcs53014-2024-ssh.azurehdinsight.net:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

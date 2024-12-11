@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" id="1497064b-ba3b-44ca-9e30-22c9c7011b82" port="22" customName="MPCS" nameFormat="CUSTOM" useOpenSSHConfig="true">
+        <option name="customName" value="MPCS" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

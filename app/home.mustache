@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Behavior and Subscription Analysis</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>User Behavior and Subscription Analysis</h1>
+    </header>
+    <main>
+        <div class="feature-card">
+            <h2>User Behavior</h2>
+            <p>Retrieve detailed behavior analysis for a specific user.</p>
+            <form action="/api/user_behavior" method="get" class="feature-form">
+                <input type="text" name="user_id" id="user_id" placeholder="Enter User ID" required>
+                <button type="submit" class="btn">Query</button>
+            </form>
+        </div>
+        <div class="feature-card">
+            <h2>Personalized Recommendations</h2>
+            <p>Get personalized recommendations for a specific user.</p>
+            <form action="/api/recommendations" method="get" class="feature-form">
+                <input type="text" name="user_id" id="user_id_recommendation" placeholder="Enter User ID" required>
+                <button type="submit" class="btn">Query</button>
+            </form>
+        </div>
+        <div class="feature-card">
+            <h2>User Risk Level</h2>
+            <p>Count users based on their risk level.</p>
+            <form id="risk-level-form" action="/api/risk-level-results" method="get" class="feature-form">
+                <select id="risk_level" name="risk_level" required>
+                    <option value="">Select Risk Level</option>
+                    <option value="Low Risk">Low Risk</option>
+                    <option value="Medium Risk">Medium Risk</option>
+                    <option value="High Risk">High Risk</option>
+                </select>
+                <button type="submit" class="btn">Query</button>
+            </form>
+        </div>
+        <div class="feature-card">
+            <h2>Insert New Data</h2>
+            <p>Click the button below to insert new data.</p>
+            <form action="/submit-risk.html" method="get" class="feature-form">
+                <button type="submit" class="btn">Go to Page</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
